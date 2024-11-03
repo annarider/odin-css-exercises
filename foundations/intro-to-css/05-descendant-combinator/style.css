@@ -1,6 +1,6 @@
-.container .text {
+div .text {
     background-color: rgb(250, 226, 10);
     color: rgb(250, 10, 10);
-    font-size: 20px;
     text-align: center;
+    font-size: 20px;
 }
