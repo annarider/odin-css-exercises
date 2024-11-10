@@ -2,6 +2,8 @@
   background: dodgerblue;
   border: 4px solid midnightblue;
   display: flex;
+  align-items: center;
+  justify-content: center;
   width: 400px;
   height: 300px;
 }
@@ -11,7 +13,7 @@
   font-weight: bold;
   text-align: center;
   border: 6px solid maroon;
-  margin: auto;
+ /* margin: auto; this is from box model, not flex model */
   width: 80px;
   height: 80px;
 }
