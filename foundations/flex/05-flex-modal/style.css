@@ -58,6 +58,9 @@ button {
   cursor: pointer;
   padding: 8px 16px;
   border-radius: 8px;
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
 }
 
 button.continue {
@@ -83,4 +86,9 @@ button.cancel {
   display: flex;
   flex-direction: column;
   gap: 16px;
+}
+
+.buttons {
+  display: flex;
+  gap: 8px;
 }
