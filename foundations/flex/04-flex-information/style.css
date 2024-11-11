@@ -30,9 +30,20 @@ img {
 .featured-plants {
   display: flex;
   justify-content: center;
+  align-items: center;
+  gap: 52px;
 }
 
 .item {
-  align-items: center;
-  gap: 52px;
+  width: 200px;
+  justify-content: center;
+}
+
+.item img {
+  flex: auto;
+}
+
+.text {
+  text-align: center;
+  flex-wrap: wrap;
 }
