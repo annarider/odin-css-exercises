@@ -30,17 +30,16 @@ img {
 .featured-plants {
   display: flex;
   justify-content: center;
-  align-items: center;
   gap: 52px;
 }
 
 .item {
   width: 200px;
-  justify-content: center;
+  align-items: center;
 }
 
 .item img {
-  flex: auto;
+  display: block;
 }
 
 .text {
