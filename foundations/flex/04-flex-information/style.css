@@ -26,3 +26,13 @@ img {
   justify-content: center;
   background: #eee;
 }
+
+.featured-plants {
+  display: flex;
+  justify-content: center;
+}
+
+.item {
+  align-items: center;
+  gap: 52px;
+}
