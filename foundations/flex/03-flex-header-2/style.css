@@ -50,8 +50,13 @@ a {
 ul {
   list-style-type: none;
   display: flex;
+  padding: 0;
+  margin: 0;
+  gap: 16px;
 }
 
-.left-align .right-align {
+.left-align, .right-align {
   display: flex;
+  align-items: center;
+  gap: 16px;
 }
