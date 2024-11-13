@@ -18,7 +18,6 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
-  margin: 8px;
   padding: 12px;
 }
 
@@ -53,6 +52,8 @@ a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 12px;
+  padding: 12px 0;
 }
 
 .footer {
