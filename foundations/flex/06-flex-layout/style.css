@@ -58,7 +58,8 @@ a {
 
 .footer {
   background-color: #eee;
-  display: flex;
+  /* Could've combined the below styles with .header above */
+  display: flex; 
   justify-content: space-between;
   align-items: center;
   padding: 18px;
