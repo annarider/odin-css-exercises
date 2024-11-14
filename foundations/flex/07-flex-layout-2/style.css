@@ -53,9 +53,18 @@ a {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
+  max-width: 400px;
+  padding: 18px;
 }
 
 .content {
   flex: 1;
   display: flex;
+}
+
+.main-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 48px;
+  padding: 48px;;
 }
