@@ -119,11 +119,13 @@
   color: black;
   font-weight: normal;
   font-size: 14px;
+  padding: 5px;
 }
 
 .card .title {
   font-size: 18px;
   text-align: center;
+  padding: 5px;
 }
 
 .footer {
