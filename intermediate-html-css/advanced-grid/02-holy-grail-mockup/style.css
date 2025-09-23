@@ -7,7 +7,6 @@
   text-align: center;
   display: grid;
   grid-template-columns: 1fr 4fr;
-  grid-template-rows: auto auto auto auto;
   gap: 4px;
 }
 
@@ -28,19 +27,21 @@
 }
 
 .logo {
-  text-align: left;
+  justify-self: start;
 }
 
 .menu {
-  align-items: center;
+  align-self: center;
 }
 
 .menu ul {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
+}
+
+.menu ul,
+.menu li {
   list-style: none;
-  place-items: center;
-  height: 100%; 
 }
 
 .menu li {
