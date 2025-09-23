@@ -24,19 +24,23 @@
   grid-column: 1 / -1;
   grid-row: 1;
   display: grid;
-  grid-template-columns: 1fr 4fr;
-  gap: 4px;
+  grid-template-columns: 1fr 2fr;
 }
 
 .logo {
   text-align: left;
 }
 
+.menu {
+  align-items: center;
+}
+
 .menu ul {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   list-style: none;
-  gap: 10px;
+  place-items: center;
+  height: 100%; 
 }
 
 .menu li {
